@@ -2,8 +2,8 @@
 
 ## NAV
 
-[cocktail-master](https://github.com/VMO2020/cocktail-master)
-[cocktail-master-server](https://github.com/VMO2020/cocktail-master/blob/main/server/BACKEND.md)
+[cocktail-master](https://github.com/VMO2020/cocktail-master)  
+[cocktail-master-server](https://github.com/VMO2020/cocktail-master/blob/main/server/BACKEND.md)  
 
 ## Start
 

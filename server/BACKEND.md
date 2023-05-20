@@ -2,8 +2,8 @@
 
 ## NAV
 
-[cocktail-master](https://github.com/VMO2020/cocktail-master)
-[cocktail-master-client](https://github.com/VMO2020/cocktail-master/blob/main/client/FRONTEND.md)
+[cocktail-master](https://github.com/VMO2020/cocktail-master)  
+[cocktail-master-client](https://github.com/VMO2020/cocktail-master/blob/main/client/FRONTEND.md)  
 
 ## Start
 
