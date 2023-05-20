@@ -8,25 +8,16 @@
 }
 
 .about-title {
-	font-size: 3rem;
 	margin-bottom: 2rem;
 }
 
-h2 {
-	font-size: 2rem;
-}
-
-p {
-	font-size: 1.5rem;
-}
-
 .link {
-	font-size: 2rem;
+	font-size: var(--size-5);
 	margin: 1rem 2rem;
 	text-decoration: none;
-	color: blue;
-	padding: 0.3rem 2rem;
-	border: 2px solid blue;
+	color: var(--main-color);
+	padding: 0.3em 2em;
+	border: 2px solid var(--main-color);
 	border-radius: 0.3rem;
 	cursor: pointer;
 }

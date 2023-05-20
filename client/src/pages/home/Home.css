@@ -3,15 +3,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem;
+	padding: 2em;
 	min-height: 75vh;
-}
-
-.home-title {
-	font-size: 3rem;
-	margin-bottom: 2rem;
-}
-
-.user-name {
-	margin: 1rem 0;
+	max-width: 100%;
+	overflow: hidden;
 }

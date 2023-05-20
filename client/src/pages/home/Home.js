@@ -15,7 +15,7 @@ export const Home = ({ user }) => {
 	return (
 		<div className="home-container">
 			<h1 className="home-title">Cocktails Master</h1>
-			{user && <h2 className="user-name">Welcome: {user.name}</h2>}
+			{user && <h5 className="user-name">Welcome: {user.name}</h5>}
 			{data && <CocktailCard data={data} />}
 		</div>
 	);

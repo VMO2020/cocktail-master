@@ -13,19 +13,18 @@ const Profile = () => {
 	return (
 		isAuthenticated && (
 			<div className="profile-container">
-				<article className="card-container">
+				<article className="profile-card-container">
 					{user?.picture && (
 						<img src={user?.picture} alt={user?.name} className="user-img" />
 					)}
-					<h2>
-						{' '}
-						<span>name:</span> {user?.name}
-					</h2>
 					<p>
-						<span>nickname:</span> {user?.nickname}
+						name: <span>{user?.name}</span>
 					</p>
 					<p>
-						<span>email:</span> {user?.email}
+						nickname: <span> {user?.nickname}</span>
+					</p>
+					<p>
+						email: <span> {user?.email}</span>
 					</p>
 					<br />
 					<ul>

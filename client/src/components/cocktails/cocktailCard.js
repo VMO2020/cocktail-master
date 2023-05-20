@@ -14,9 +14,9 @@ export const CocktailCard = ({ data }) => {
 						/>
 					</div>
 					<div className="cocktail-card-text">
-						<h2>{data.drinks[0].strDrink}</h2>
+						<h3>{data.drinks[0].strDrink}</h3>
 						<p>{data.drinks[0].strGlass}</p>
-						<h3>Ingredients:</h3>
+						<h5>Ingredients:</h5>
 						<p>{data.drinks[0].strIngredient1}</p>
 						<p>{data.drinks[0].strIngredient2}</p>
 						<p>{data.drinks[0].strIngredient3}</p>

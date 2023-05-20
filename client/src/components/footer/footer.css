@@ -1,15 +1,15 @@
 .footer-container {
 	text-align: center;
-	color: blue;
+	color: var(--main-color);
 	margin-top: 4rem;
 	width: 100%;
-	border: 2px solid blue;
+	border: 2px solid var(--main-color);
 }
 
 .footer-link {
-	font-size: 2rem;
+	font-size: var(--size-6);
 	margin: 1rem 2rem;
 	text-decoration: none;
-	color: blue;
+	color: var(--main-color);
 	cursor: pointer;
 }

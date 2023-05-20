@@ -149,7 +149,7 @@ table {
 }
 
 a {
-	display: inline-block;
+	display: inline;
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
