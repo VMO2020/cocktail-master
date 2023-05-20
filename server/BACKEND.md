@@ -3,7 +3,7 @@
 1. Create: server.js`
 2. Terminal: `cd server`
 3. Terminal(server): `npm init -y`
-4. Terminal(server): `npm i express cors nodemon dotenv mongoose`
+4. Terminal(server): `npm i express cors nodemon dotenv mongoose axios bcryptjs`
 5. Terminal(server): `npm i body-parser`
 6. Create: `.gitignore` => node_modules & .env
 7. package.json: `"start": "nodemon server.js"`

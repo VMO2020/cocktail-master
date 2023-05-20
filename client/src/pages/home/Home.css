@@ -1,0 +1,17 @@
+.home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	min-height: 75vh;
+}
+
+.home-title {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+}
+
+.user-name {
+	margin: 1rem 0;
+}

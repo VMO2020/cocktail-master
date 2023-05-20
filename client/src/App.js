@@ -1,13 +1,29 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
+
 import './Reset.css';
 import './App.css';
 
+import { Header } from './components/header/header';
+import { Footer } from './components/footer/footer';
+import { Home } from './pages/home/Home';
+import { About } from './pages/About/About';
+import Profile from './components/auth/Profile';
+
 function App() {
+	const { user, isAuthenticated, isLoading, error } = useAuth0();
 	return (
-		<div className="App">
-			<header className="App-header">
-				<h1>Hello</h1>
-			</header>
-		</div>
+		<BrowserRouter>
+			<Header user={user} isAuthenticated={isAuthenticated} />
+			{error && <p>Authentication Error</p>}
+			{!error && isLoading && <p className="loading">Loading....</p>}
+			<Routes>
+				<Route path="/" element={<Home user={user} />} />
+				<Route path="/about" element={<About />} />
+				{isAuthenticated && <Route path="/user" element={<Profile />} />}
+			</Routes>
+			<Footer />
+		</BrowserRouter>
 	);
 }
 

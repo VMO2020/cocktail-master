@@ -10,9 +10,15 @@ app.use(cors());
 const bp = require('body-parser');
 app.use(bp.json());
 
+const randomCocktail = require('./library/randomCocktail.js');
+
+// ROOT
 app.get('/', (request, response) => {
 	response.json('Welcome to the Cocktail Master API.');
 });
+
+// RANDOM COCKTAIL
+app.get('/random', randomCocktail);
 
 mongoose
 	.connect(process.env.DATABASE_URL, {
