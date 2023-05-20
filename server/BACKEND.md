@@ -1,5 +1,12 @@
 # cocktail-master-backend (server)
 
+## NAV
+
+[cocktail-master](https://github.com/VMO2020/cocktail-master)
+[cocktail-master-client](https://github.com/VMO2020/cocktail-master/blob/main/client/FRONTEND.md)
+
+## Start
+
 1. Create: server.js`
 2. Terminal: `cd server`
 3. Terminal(server): `npm init -y`

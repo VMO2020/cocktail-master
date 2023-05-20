@@ -1,5 +1,11 @@
 # cocktail-master
 
+## NAV
+
+[cocktail-master](https://github.com/VMO2020/cocktail-master)
+[cocktail-master-client](https://github.com/VMO2020/cocktail-master/blob/main/client/FRONTEND.md)
+[cocktail-master-server](https://github.com/VMO2020/cocktail-master/blob/main/server/BACKEND.md)
+
 ## Frontend
 
 1. create client folder
@@ -24,3 +30,5 @@
 5. Terminal: `git branch -M main`
 6. Terminal: `git remote add origin https://github.com/VMO2020/cocktail-master.git`
 7. Terminal: `git push -u origin main`
+
+[cocktail-master REPO](https://github.com/VMO2020/cocktail-master)

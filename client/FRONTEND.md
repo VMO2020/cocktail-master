@@ -1,5 +1,12 @@
 # cocktail-master-frontend (client)
 
+## NAV
+
+[cocktail-master](https://github.com/VMO2020/cocktail-master)
+[cocktail-master-server](https://github.com/VMO2020/cocktail-master/blob/main/server/BACKEND.md)
+
+## Start
+
 1. Terminal: `cd client`
 2. Terminal(client): `npx create-react-app .`
 3. Terminal(client): `rm -rf .git`
