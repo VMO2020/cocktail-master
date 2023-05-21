@@ -4,10 +4,42 @@
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
-	min-height: 83vh;
+	min-height: 85vh;
 }
 
 .search-title {
+	margin-top: 4rem;
 	margin-bottom: 2rem;
 	color: var(--main-color);
+}
+
+input {
+	font-size: var(--size-5);
+	margin-bottom: 1.5em;
+	border: 2px solid var(--main-color);
+}
+
+.selectors-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-container {
+	margin: 1em;
+	padding: 1em;
+	border: 2px solid var(--dark-color);
+	cursor: pointer;
+}
+
+.icon-container:hover {
+	box-shadow: 3px 3px 5px var(--med-color);
+}
+
+.icon-container svg {
+	fill: var(--dark-color);
+	width: var(--size-1);
+	height: var(--size-1);
+	margin-top: 0.6em;
 }
