@@ -9,7 +9,7 @@ export const Footer = () => {
 				rel="noreferrer"
 				className="footer-link"
 			>
-				VMOG &copy; 2023
+				Copyright and web design by &copy; VMOG 2023
 			</a>
 		</div>
 	);

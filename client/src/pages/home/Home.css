@@ -1,10 +1,25 @@
 .home-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
-	min-height: 75vh;
+	min-height: 77vh;
 	max-width: 100%;
 	overflow: hidden;
+}
+
+.home-title {
+	margin-top: 10vh;
+}
+
+.description {
+	margin-top: 4rem;
+	padding: 2rem;
+	text-align: left;
+}
+
+.description p {
+	text-indent: 5em;
 }

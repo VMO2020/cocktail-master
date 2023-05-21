@@ -7,7 +7,7 @@ import './styles.css';
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
 import { Home } from './pages/home/Home';
-import { About } from './pages/About/About';
+import { About } from './pages/about/about';
 import Profile from './components/auth/Profile';
 
 function App() {

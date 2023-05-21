@@ -4,20 +4,42 @@
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
-	min-height: 75vh;
+	min-height: 83vh;
 }
 
 .about-title {
 	margin-bottom: 2rem;
+	color: var(--main-color);
 }
 
-.link {
+.links-container {
+	margin-top: 3em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3em;
+}
+
+.web-link {
 	font-size: var(--size-5);
-	margin: 1rem 2rem;
 	text-decoration: none;
 	color: var(--main-color);
+	margin: auto;
 	padding: 0.3em 2em;
 	border: 2px solid var(--main-color);
 	border-radius: 0.3rem;
+	box-shadow: 3px 3px 5px var(--med-color);
+	cursor: pointer;
+}
+
+.resume-link {
+	font-size: var(--size-5);
+	text-decoration: none;
+	color: var(--light-color);
+	background-color: var(--main-color);
+	margin: auto;
+	padding: 0.3em 2.7em;
+	border: 2px solid var(--main-color);
+	border-radius: 0.3rem;
+	box-shadow: 3px 3px 5px var(--med-color);
 	cursor: pointer;
 }
