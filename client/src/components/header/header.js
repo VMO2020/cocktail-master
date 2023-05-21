@@ -32,6 +32,12 @@ export const Header = ({ user, isAuthenticated }) => {
 					<Link to="/about" className="header-link">
 						About
 					</Link>
+					<Link to="/search" className="header-link">
+						Search
+					</Link>
+					<Link to="/create" className="header-link">
+						Create
+					</Link>
 
 					{isAuthenticated ? <LogoutButton /> : <LoginButton />}
 				</nav>

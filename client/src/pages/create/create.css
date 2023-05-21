@@ -1,0 +1,13 @@
+.create-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	min-height: 83vh;
+}
+
+.create-title {
+	margin-bottom: 2rem;
+	color: var(--main-color);
+}

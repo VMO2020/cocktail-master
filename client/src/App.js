@@ -9,6 +9,8 @@ import { Footer } from './components/footer/footer';
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/about';
 import Profile from './components/auth/Profile';
+import { Search } from './pages/search/search';
+import { Create } from './pages/create/create';
 
 function App() {
 	const { user, isAuthenticated, isLoading, error } = useAuth0();
@@ -20,6 +22,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home user={user} />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/search" element={<Search />} />
+				<Route path="/create" element={<Create />} />
 				{isAuthenticated && <Route path="/user" element={<Profile />} />}
 			</Routes>
 			<Footer />
