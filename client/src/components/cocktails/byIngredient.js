@@ -1,5 +1,9 @@
 import './byIngredient.css';
 
 export const ByIngredient = ({ search }) => {
-	return <div>By Ingredient: {search}</div>;
+	return (
+		<div>
+			<h2>By Ingredient: {search}</h2>
+		</div>
+	);
 };

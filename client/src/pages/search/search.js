@@ -24,12 +24,12 @@ export const Search = () => {
 
 	const handleByLetter = () => {
 		Reset();
-		setByLetter(!byName);
+		setByLetter(!byLetter);
 	};
 
 	const handleByIngredient = () => {
 		Reset();
-		setByIngredient(!byName);
+		setByIngredient(!byIngredient);
 	};
 
 	const handleRandom = () => {
@@ -75,7 +75,7 @@ export const Search = () => {
 					style={{ backgroundColor: byLetter ? 'aqua' : 'white' }}
 				>
 					<Wine />
-					<p>by letter</p>
+					<p>by first letter</p>
 				</div>
 				<div
 					className="icon-container"
