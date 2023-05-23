@@ -23,6 +23,9 @@
 	--size-7: clamp(0.8rem, 1.5vw, 1.2rem);
 	--size-8: clamp(0.7rem, 1.3vw, 1.1rem);
 
+	--sm-icon: var(--size-3);
+	--lg-icon: clamp(3rem, 5.2vw, 5rem);
+
 	--sm-shadow: 3px 3px 5px var(--med-light-color);
 	--lg-shadow: 5px 5px 8px var(--med-light-color);
 }

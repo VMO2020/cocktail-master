@@ -8,16 +8,15 @@
 	height: 8vh;
 	padding: 0 1rem;
 	background-color: var(--dark-color);
-	/* border-top: 2px solid var(--main-color); */
 	border-bottom: 2px solid var(--main-color);
 	z-index: 100;
 }
 
 .header-container .logo {
-	width: var(--size-3);
+	width: var(--sm-icon);
 	margin: 0;
 	border-radius: 50%;
-	box-shadow: 3px 3px 5px var(--med-light-color);
+	box-shadow: var(--sm-shadow);
 }
 
 .header-container .menu-container {
@@ -26,8 +25,8 @@
 
 .header-container svg {
 	fill: var(--light-color);
-	width: var(--size-3);
-	height: var(--size-3);
+	width: var(--sm-icon);
+	height: var(--sm-icon);
 	margin-top: 0.6em;
 	cursor: pointer;
 }
@@ -40,10 +39,9 @@
 	color: var(--light-color);
 	padding: 0.1em 2em;
 	background-color: transparent;
-	/* border: 2px solid var(--main-color); */
 	border: none;
 	border-radius: 0.3rem;
-	box-shadow: 3px 3px 5px var(--med-light-color);
+	box-shadow: var(--sm-shadow);
 	cursor: pointer;
 }
 
@@ -63,7 +61,7 @@
 	margin-bottom: 0;
 	margin-left: 1.5em;
 	border-radius: 50%;
-	box-shadow: 3px 3px 5px var(--med-light-color);
+	box-shadow: var(--sm-shadow);
 	cursor: pointer;
 }
 

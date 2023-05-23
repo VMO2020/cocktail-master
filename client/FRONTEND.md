@@ -56,4 +56,8 @@ Add: `reset.css`
 
 3. User target:
 
-`Our website caters to a diverse range of cocktail enthusiasts, including cocktail lovers, bartenders, party organizers, bars, and restaurants. For the cocktail lovers, we provide a treasure trove of cocktail recipes, allowing them to explore and indulge in a wide variety of delightful concoctions. Bartenders can find inspiration, refine their skills, and discover new techniques to elevate their craft. Party organizers can rely on our website to plan memorable events, with access to crowd-pleasing cocktail recipes and mixology tips. Bars and restaurants can leverage our platform to showcase their unique cocktail menus, attract patrons, and stay ahead in the competitive industry. Our website is a one-stop destination for all things cocktails, catering to the diverse needs of cocktail enthusiasts, professionals, and businesses alike.`
+`Our website caters to a diverse range of cocktail enthusiasts, including cocktail lovers, bartenders, party organizers, bars, and restaurants. For the cocktail lovers, we provide a treasure trove of cocktail recipes, allowing them to explore and indulge in a wide variety of delightful concoctions.`  
+
+`Bartenders can find inspiration, refine their skills, and discover new techniques to elevate their craft. Party organizers can rely on our website to plan memorable events, with access to crowd-pleasing cocktail recipes and mixology tips.`  
+
+`Bars and restaurants can leverage our platform to showcase their unique cocktail menus, attract patrons, and stay ahead in the competitive industry. Our website is a one-stop destination for all things cocktails, catering to the diverse needs of cocktail enthusiasts, professionals, and businesses alike.`

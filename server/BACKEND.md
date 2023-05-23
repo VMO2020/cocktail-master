@@ -38,3 +38,18 @@ Terminal(server): `node seed.js`
 Mongodb => Database => Connect => Get URL to connect
 
 MongoCompass => Connect
+
+## Render.io
+
+1. Create `New+` Web Service
+2. Select from GitHub:  cocktail-master `Connect`
+3. Name: `cocktail-master`
+4. Region: `Frankfurt(EU Central)`
+5. Branch: `main`
+6. Root Directory: `server`
+7. Runtime: `Node`
+8. Build Command: `npm i`
+9. Start Command: `npm start`
+10. Advanced: Add Environment Variables `.env`
+11. Add Access to mongoDB: `0.0.0.0`
+12. Create Web Service: `https://cocktail-master.onrender.com/`

@@ -17,10 +17,16 @@ const byIngredientCocktail = require('./library/byIngredientCocktails.js');
 const byIdCocktail = require('./library/byIdCocktail.js');
 const nonAlcoholicCocktails = require('./library/nonAlcoholic.js');
 
+const CREATECocktail = require('./library/CREATECocktail.js');
+const GETCocktails = require('./library/GETCocktails.js');
+const DELETECocktail = require('./library/DELETECocktail.js');
+const UPDATECocktail = require('./library/UPDATECocktail.js');
+
 // ROOT
 app.get('/', (request, response) => {
 	response.json('Welcome to the Cocktail Master API.');
 });
+// API ////////////////////////////////////
 // Random Cocktail
 app.get('/random', randomCocktail);
 // By Name Cocktail
@@ -33,6 +39,16 @@ app.get('/byingredient', byIngredientCocktail);
 app.get('/byid', byIdCocktail);
 // Non Alcoholic
 app.get('/nonalcoholic', nonAlcoholicCocktails);
+
+// MongoDB ///////////////////////////////
+// GET-List
+app.get('/cocktails', GETCocktails);
+// POST-Create
+app.post('/cocktail', CREATECocktail);
+// DELETE
+app.delete('/cocktail/:id', DELETECocktail);
+// PUT-Update
+app.put('/cocktail/:id', UPDATECocktail);
 
 mongoose
 	.connect(process.env.DATABASE_URL, {

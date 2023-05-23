@@ -10,16 +10,22 @@
 	overflow: hidden;
 }
 
-.home-title {
+.home-container .home-title {
+	font-weight: 700;
+	color: var(--main-color);
 	margin-top: 10vh;
 }
 
-.description {
+.home-container h5 {
+	margin-bottom: 2rem;
+}
+
+.home-container .description {
 	margin-top: 4rem;
 	padding: 2rem;
 	text-align: left;
 }
 
-.description p {
+.home-container .description p {
 	text-indent: 5em;
 }
