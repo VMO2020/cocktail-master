@@ -1,0 +1,53 @@
+.non-alcoholic-cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: center;
+}
+
+.non-alcoholic-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 580px;
+	margin: auto;
+	background-color: var(--light-color);
+	border: 2px solid var(--dark-color);
+	box-shadow: var(--sm-shadow);
+}
+
+.non-alcoholic-card h5 {
+	color: var(--main-color);
+}
+
+.non-alcoholic-card img {
+	width: 50%;
+}
+
+.non-alcoholic-card .non-alcoholic-text {
+	width: 50%;
+}
+
+.non-alcoholic-card .non-alcoholic-text p {
+	display: block;
+	color: var(--dark-color);
+}
+
+.non-alcoholic-card button {
+	font-size: var(--size-8);
+	margin-top: 1em;
+	padding: 0.2em 0.5em;
+	color: var(--dark-color);
+	border: none;
+	border-radius: 0.2em;
+	background-color: transparent;
+	box-shadow: var(--sm-shadow);
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	.non-alcoholic-card {
+		width: 375px;
+	}
+}

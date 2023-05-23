@@ -1,0 +1,11 @@
+.by-letter-container h2 {
+	margin: 0.8em auto;
+}
+
+.by-letter-container-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	gap: 1rem;
+}

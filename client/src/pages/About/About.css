@@ -1,25 +1,27 @@
 .about-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
 	min-height: 83vh;
+	overflow: hidden;
 }
 
-.about-title {
+.about-container .about-title {
 	margin-bottom: 2rem;
 	color: var(--main-color);
 }
 
-.links-container {
+.about-container .links-container {
 	margin-top: 3em;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 3em;
 }
 
-.web-link {
+.about-container .web-link {
 	font-size: var(--size-5);
 	text-decoration: none;
 	color: var(--main-color);
@@ -31,7 +33,7 @@
 	cursor: pointer;
 }
 
-.resume-link {
+.about-container .resume-link {
 	font-size: var(--size-5);
 	text-decoration: none;
 	color: var(--light-color);

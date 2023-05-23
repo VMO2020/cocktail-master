@@ -34,9 +34,9 @@ Add: `reset.css`
 1. [Login-Auth0](https://auth0.com/)
 2. Applications => Create New Application => name `App name` => Single Page App => **react**
 3. App name => Settings
-4. Allowed Callback URLs: `http://localhost:3000`
-5. Allowed Logout URLs: `http://localhost:3000` => URL after Login
-6. Allowed Web Origins: `http://localhost:3000`
+4. Allowed Callback URLs: `http://localhost:3000, http://localhost:5173`
+5. Allowed Logout URLs: `http://localhost:3000, http://localhost:5173` => URL after Login
+6. Allowed Web Origins: `http://localhost:3000, http://localhost:5173`
 7. Save Changes  
 8. Connections add: GitHub ......
 9. React Project Terminal(client): `npm install @auth0/auth0-react`

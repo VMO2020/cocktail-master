@@ -1,13 +1,15 @@
 .create-container {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 2rem;
 	min-height: 83vh;
+	overflow: hidden;
 }
 
-.create-title {
+.create-container .create-title {
 	margin-bottom: 2rem;
 	color: var(--main-color);
 }

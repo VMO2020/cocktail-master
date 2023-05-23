@@ -1,9 +1,30 @@
+import { useEffect, useState } from 'react';
 import './byIngredient.css';
 
+import { getByIngredient } from '../../services/getByIngredient';
+import { NonAlcoholicCard } from '../../components/cocktails/cards/nonAlcoholicCard';
+
 export const ByIngredient = ({ search }) => {
+	const [data, setData] = useState(null);
+
+	useEffect(() => {
+		getByIngredient({ setData, search });
+	}, []);
+
 	return (
-		<div>
-			<h2>By Ingredient: {search}</h2>
+		<div className="by-ingredient-container">
+			<h2>
+				By Ingredient: <span>{search}</span>
+			</h2>
+			{/* {!data && <h4 style={{ color: 'red' }}>Ingredient not found</h4>} */}
+			<section className="by-ingredient-container-card">
+				{data &&
+					data.drinks?.map((drink) => (
+						<div key={drink.idDrink}>
+							<NonAlcoholicCard drink={drink} />
+						</div>
+					))}
+			</section>
 		</div>
 	);
 };

@@ -3,13 +3,16 @@ import { useEffect, useState } from 'react';
 import './Home.css';
 
 import { getRandomCocktail } from '../../services/getRandomCocktail';
-import { CocktailCard } from '../../components/cocktails/cocktailCard';
+import { CocktailCard } from '../../components/cocktails/cards/cocktailCard';
+
+const mojito = require('../../data/mojito.json');
 
 export const Home = ({ user }) => {
-	const [data, setData] = useState(null);
+	const [data, setData] = useState(mojito);
 
 	useEffect(() => {
 		getRandomCocktail({ setData });
+		// console.log(mojito);
 	}, []);
 
 	return (

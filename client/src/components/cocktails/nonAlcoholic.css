@@ -1,0 +1,9 @@
+.non-alcoholic-container {
+	margin-top: 3rem;
+	padding: 1rem;
+	overflow: hidden;
+}
+
+.non-alcoholic-container h2 {
+	margin-bottom: 1em;
+}

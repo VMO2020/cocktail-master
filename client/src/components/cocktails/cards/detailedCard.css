@@ -1,0 +1,37 @@
+.detailed-card {
+	position: relative;
+	padding: 2em 3em;
+	background-color: var(--light-color);
+	box-shadow: var(--sm-shadow);
+}
+
+.detailed-card img {
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: var(--sm-shadow);
+}
+
+.detailed-card h4 {
+	color: var(--main-color);
+	font-weight: 700;
+	margin-top: 0.5em;
+}
+
+.detailed-card h6 {
+	font-weight: 700;
+	margin: 0.6em auto;
+}
+
+.detailed-card p span {
+	color: var(--dark-color);
+}
+.detailed-card .modal-button {
+	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	font-size: var(--size-6);
+	color: var(--med-color);
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}

@@ -8,7 +8,7 @@
 	border-top: 2px solid var(--main-color);
 }
 
-.footer-link {
+.footer-container .footer-link {
 	font-size: var(--size-6);
 	margin: 1rem 2rem;
 	text-decoration: none;
