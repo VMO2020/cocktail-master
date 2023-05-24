@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react';
 
-import './reset.css';
+import './Reset.css';
 import './styles.css';
 
 import { Header } from './components/header/header';
