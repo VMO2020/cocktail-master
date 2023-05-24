@@ -57,6 +57,7 @@
 
 .header-container .header-user-img {
 	width: var(--size-3);
+	height: var(--size-3);
 	margin-top: 0.3em;
 	margin-bottom: 0;
 	margin-left: 1.5em;

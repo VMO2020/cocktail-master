@@ -2,12 +2,17 @@
 	max-width: 90%;
 }
 
-.update-card-container .input,
-.update-card-container .textarea {
-	margin-bottom: 2rem;
+.update-card-container input,
+.update-card-container textarea {
+	font-size: var(--size-7);
+	margin-bottom: 0.2em;
+	padding: 0.2em 0.5em;
+	border: 1px solid var(--main-dark-color);
+	box-shadow: var(--sm-shadow);
 }
 
 .update-card-container label {
+	text-align: left;
 	margin-top: 0.3rem;
 }
 

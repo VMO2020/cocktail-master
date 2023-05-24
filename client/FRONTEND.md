@@ -34,9 +34,9 @@ Add: `reset.css`
 1. [Login-Auth0](https://auth0.com/)
 2. Applications => Create New Application => name `App name` => Single Page App => **react**
 3. App name => Settings
-4. Allowed Callback URLs: `http://localhost:3000, http://localhost:5173`
-5. Allowed Logout URLs: `http://localhost:3000, http://localhost:5173` => URL after Login
-6. Allowed Web Origins: `http://localhost:3000, http://localhost:5173`
+4. Allowed Callback URLs: `http://localhost:3000, http://localhost:5173, https://cocktails-master.netlify.app/`
+5. Allowed Logout URLs: `http://localhost:3000, http://localhost:5173, https://cocktails-master.netlify.app/` => URL after Login
+6. Allowed Web Origins: `http://localhost:3000, http://localhost:5173, https://cocktails-master.netlify.app/`
 7. Save Changes  
 8. Connections add: GitHub ......
 9. React Project Terminal(client): `npm install @auth0/auth0-react`
@@ -71,9 +71,9 @@ Add: `reset.css`
 5. Owner: `VMOG`
 6. Branch to deply: `main`
 7. Base directory: `client`
-8. Build command: `npm run build`
+8. Build command: `CI='' npm run build`
 9. Publish directory: `client/build`
 10. Show Advance: Environment variable: New variable `.env.local`
 11. Environment Add: `CI`=`false`
 11. Deploy site
-12. Site settings: Change url name
+12. Site settings: Change url name: `https://cocktails-master.netlify.app/`
