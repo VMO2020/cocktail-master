@@ -1,4 +1,4 @@
-import './about.css';
+import './About.css';
 
 // MERN
 import { ReactComponent as Mongo } from '../../assets/images/mongodb.svg';
