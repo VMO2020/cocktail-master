@@ -61,3 +61,19 @@ Add: `reset.css`
 `Bartenders can find inspiration, refine their skills, and discover new techniques to elevate their craft. Party organizers can rely on our website to plan memorable events, with access to crowd-pleasing cocktail recipes and mixology tips.`  
 
 `Bars and restaurants can leverage our platform to showcase their unique cocktail menus, attract patrons, and stay ahead in the competitive industry. Our website is a one-stop destination for all things cocktails, catering to the diverse needs of cocktail enthusiasts, professionals, and businesses alike.`
+
+## Netlfy
+
+1. Go to `https://app.netlify.com/` All sites
+2. Add new site => Import an existing project
+3. Connect to Git provider: GitHub
+4. Search: `cocktail-master`
+5. Owner: `VMOG`
+6. Branch to deply: `main`
+7. Base directory: `client`
+8. Build command: `npm run build`
+9. Publish directory: `client/build`
+10. Show Advance: Environment variable: New variable `.env.local`
+11. Environment Add: `CI`=`false`
+11. Deploy site
+12. Site settings: Change url name

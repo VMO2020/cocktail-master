@@ -2,8 +2,9 @@
 
 /* Variables */
 :root {
+	--main-light-color: rgb(186, 226, 226);
 	--main-color: blue;
-	--main-light-color: aqua;
+	--main-dark-color: rgb(1, 1, 78);
 
 	--dark-color: black;
 	--med-dark-color: darkgrey;
