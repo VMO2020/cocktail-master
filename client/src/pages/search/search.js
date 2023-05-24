@@ -68,7 +68,9 @@ export const Search = () => {
 
 	return (
 		<main className="search-container">
-			<h1 className="search-title">Search Cocktails</h1>
+			<h1 className="search-title">
+				<span>Search </span>Cocktails
+			</h1>
 			<div className="search-input">
 				<input
 					type="text"

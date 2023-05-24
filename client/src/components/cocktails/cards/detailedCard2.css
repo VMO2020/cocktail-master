@@ -1,12 +1,14 @@
 .detailed-card-2 {
 	position: relative;
+	min-width: 380px;
 	padding: 2em 3em;
 	background-color: var(--light-color);
 	box-shadow: var(--lg-shadow);
 }
 
 .detailed-card-2 img {
-	width: 150px;
+	width: var(--size-img-1);
+	height: var(--size-img-1);
 	border-radius: 50%;
 	box-shadow: var(--sm-shadow);
 }

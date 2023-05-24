@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import './Home.css';
 
 import { getRandomCocktail } from '../../services/getRandomCocktail';

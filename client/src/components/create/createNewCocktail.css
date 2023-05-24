@@ -1,0 +1,47 @@
+.create-card-container {
+	max-width: 90%;
+}
+
+.create-card-container .input,
+.create-card-container .textarea {
+	margin-bottom: 2rem;
+}
+
+.create-card-container label {
+	margin-top: 0.3rem;
+}
+
+.create-card-container form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	max-width: 100%;
+	background-color: var(--med-light-color);
+	padding: 2rem;
+}
+
+.create-card-container form h3 {
+	text-align: center;
+	color: var(--main-color);
+	text-transform: uppercase;
+}
+
+.create-card-container .submit {
+	color: var(--main-color);
+	border: 1px solid var(--main-color);
+	border-radius: 0.3rem;
+	background-color: transparent;
+	margin-top: 1rem;
+	padding: 0.3rem 2rem;
+	cursor: pointer;
+}
+
+.create-card-container .close {
+	position: absolute;
+	top: -1rem;
+	right: 1rem;
+	font-size: 2rem;
+	padding: 1rem;
+	cursor: pointer;
+}

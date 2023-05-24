@@ -26,16 +26,32 @@ export const Header = ({ user, isAuthenticated }) => {
 			/>
 			{showMenu && (
 				<nav>
-					<Link to="/" className="header-link">
+					<Link
+						to="/"
+						className="header-link"
+						onClick={() => setShowMenu(!showMenu)}
+					>
 						Home
 					</Link>
-					<Link to="/about" className="header-link">
+					<Link
+						to="/about"
+						className="header-link"
+						onClick={() => setShowMenu(!showMenu)}
+					>
 						About
 					</Link>
-					<Link to="/search" className="header-link">
+					<Link
+						to="/search"
+						className="header-link"
+						onClick={() => setShowMenu(!showMenu)}
+					>
 						Search
 					</Link>
-					<Link to="/create" className="header-link">
+					<Link
+						to="/create"
+						className="header-link"
+						onClick={() => setShowMenu(!showMenu)}
+					>
 						Create
 					</Link>
 

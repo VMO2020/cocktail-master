@@ -1,5 +1,6 @@
 .detailed-card {
 	position: relative;
+	min-width: 380px;
 	padding: 2em 3em;
 	background-color: var(--light-color);
 	box-shadow: var(--sm-shadow);
@@ -7,6 +8,7 @@
 
 .detailed-card img {
 	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	box-shadow: var(--sm-shadow);
 }

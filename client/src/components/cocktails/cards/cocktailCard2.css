@@ -1,0 +1,47 @@
+.card-2-container {
+	position: relative;
+	min-width: 380px;
+	padding: 2em 3em;
+	background-color: var(--light-color);
+	border: 2px solid var(--med-light-color);
+	box-shadow: var(--sm-shadow);
+}
+
+.card-2-container img {
+	width: var(--size-img-1);
+	height: var(--size-img-1);
+	border-radius: 50%;
+	box-shadow: var(--sm-shadow);
+}
+
+.card-2-container h4 {
+	color: var(--main-color);
+	font-weight: 700;
+	margin-top: 0.5em;
+}
+
+.card-2-container h6 {
+	font-weight: 700;
+	margin: 0.6em auto;
+}
+
+.card-2-container span {
+	color: var(--dark-color);
+}
+
+.edit-delete-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card-2-container .form-delete {
+	font-size: var(--size-6);
+	margin-left: 0.3em;
+	padding: 0 0.5em;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.card-2-container .form-delete:hover {
+	box-shadow: var(--sm-shadow);
+}

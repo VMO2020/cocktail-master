@@ -23,7 +23,7 @@ function App() {
 				<Route path="/" element={<Home user={user} />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/search" element={<Search />} />
-				<Route path="/create" element={<Create />} />
+				<Route path="/create" element={<Create user={user} />} />
 				{isAuthenticated && <Route path="/user" element={<Profile />} />}
 			</Routes>
 			<Footer />
