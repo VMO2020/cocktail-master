@@ -77,16 +77,15 @@
 		left: 1em;
 	}
 
-	.header-container svg {
-		position: absolute;
-		top: 0.1em;
-		right: 3em;
-	}
-
-	.header-container .header-user-img {
+	.header-container .menu-container {
 		position: absolute;
 		top: 0.1em;
 		right: 1em;
+	}
+
+	.header-container .header-user-img {
+		margin-left: 1em;
+		margin-top: 0.5em;
 	}
 
 	.header-container nav {
