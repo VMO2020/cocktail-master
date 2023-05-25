@@ -6,14 +6,24 @@ import { getCocktails } from '../../../services/getCocktails';
 import { DeleteCocktail } from '../../../services/DELETECocktail';
 import { UpdateCocktail } from '../../../components/update/updateCocktail';
 
+// Icons
+import { ReactComponent as Edit } from '../../../assets/edit_nc.svg';
+import { ReactComponent as Delete } from '../../../assets/delete_full_nc.svg';
+
 export const CocktailCard2 = ({ cocktail, user, setData }) => {
 	const [auth, setAuth] = useState(false);
 	const [showModal, setShowModal] = useState(false);
 
 	const handleDeleteCocktail = async () => {
-		await DeleteCocktail(cocktail._id);
-		getCocktails({ setData });
-		// console.log(cocktail._id);
+		const confirmation = window.confirm(
+			'Are you sure you want to delete this great cocktail?'
+		);
+		if (confirmation) {
+			await DeleteCocktail(cocktail._id);
+			getCocktails({ setData });
+		} else {
+			// Cancelled, do nothing or perform any desired action
+		}
 	};
 
 	const handleUpdateCocktail = () => {
@@ -60,11 +70,11 @@ export const CocktailCard2 = ({ cocktail, user, setData }) => {
 			<h6>Author: {cocktail.author}</h6>
 			{auth && (
 				<div className="edit-delete-container">
-					<p onClick={handleUpdateCocktail} className="form-delete">
-						✏️
+					<p onClick={handleUpdateCocktail} className="form-edit">
+						<Edit />
 					</p>
 					<p onClick={handleDeleteCocktail} className="form-delete">
-						🗑
+						<Delete />
 					</p>
 				</div>
 			)}

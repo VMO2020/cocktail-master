@@ -76,9 +76,6 @@ export const Create = ({ user }) => {
 
 	useEffect(() => {
 		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}, []);
-
-	useEffect(() => {
 		user?.name && setForm({ ...form, author: user.name });
 	}, []);
 
