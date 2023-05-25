@@ -38,6 +38,10 @@
 	box-shadow: var(--sm-shadow);
 }
 
+.cocktail-card-container .cocktail-img:hover {
+	border-radius: 0;
+}
+
 .cocktail-card-container .cocktail-card-text {
 	text-align: left;
 	width: 380px;

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './search.css';
 // Icons
 import { ReactComponent as Bar } from '../../assets/bar.svg';
@@ -65,6 +65,10 @@ export const Search = () => {
 		Reset();
 		// console.log(event.target.value);
 	};
+
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
 
 	return (
 		<main className="search-container">

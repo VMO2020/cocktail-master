@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './About.css';
 
 // MERN
@@ -15,6 +16,10 @@ import { ReactComponent as NPM } from '../../assets/images/npm2.svg';
 import { ReactComponent as Image } from '../../assets/images/giphy.gif';
 
 export const About = () => {
+	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
 	return (
 		<div className="about-container">
 			<div className="image-gif"></div>

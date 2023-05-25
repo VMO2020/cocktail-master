@@ -10,6 +10,10 @@ export const Home = ({ user }) => {
 	const [data, setData] = useState(mojito);
 
 	useEffect(() => {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}, []);
+
+	useEffect(() => {
 		getRandomCocktail({ setData });
 	}, []);
 
