@@ -54,14 +54,6 @@ Add: `reset.css`
 
 `"Discover an enticing world of cocktails at Cocktail Hub. Explore a vast collection of handcrafted cocktail recipes, unleash your creativity to craft your own signature drinks, and elevate your mixology skills. Perfect for cocktail lovers, bartenders, party enthusiasts, bars, and restaurants seeking inspiration and innovation. Cheers to unforgettable libations!"`
 
-3. User target:
-
-`Our website caters to a diverse range of cocktail enthusiasts, including cocktail lovers, bartenders, party organizers, bars, and restaurants. For the cocktail lovers, we provide a treasure trove of cocktail recipes, allowing them to explore and indulge in a wide variety of delightful concoctions.`  
-
-`Bartenders can find inspiration, refine their skills, and discover new techniques to elevate their craft. Party organizers can rely on our website to plan memorable events, with access to crowd-pleasing cocktail recipes and mixology tips.`  
-
-`Bars and restaurants can leverage our platform to showcase their unique cocktail menus, attract patrons, and stay ahead in the competitive industry. Our website is a one-stop destination for all things cocktails, catering to the diverse needs of cocktail enthusiasts, professionals, and businesses alike.`
-
 ## Netlfy
 
 1. Go to `https://app.netlify.com/` All sites

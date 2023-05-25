@@ -14,6 +14,16 @@
 	font-weight: 700;
 	color: var(--main-color);
 	margin-top: 10vh;
+	margin-bottom: 1rem;
+}
+
+.home-container .home-title span {
+	font-weight: 500;
+}
+
+.home-container h3 {
+	text-align: center;
+	margin-bottom: 2rem;
 }
 
 .home-container h5 {
@@ -28,4 +38,10 @@
 
 .home-container .description p {
 	text-indent: 5em;
+}
+
+@media only screen and (max-width: 768px) {
+	.home-container {
+		padding: 0;
+	}
 }

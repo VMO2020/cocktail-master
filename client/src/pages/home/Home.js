@@ -17,12 +17,12 @@ export const Home = ({ user }) => {
 	return (
 		<div className="home-container">
 			<h1 className="home-title">
-				{' '}
 				<span>Cocktails</span> Master
 			</h1>
 			{user && <h5 className="user-name">Welcome: {user.name}</h5>}
 			{data && <CocktailCard data={data} />}
 			<section className="description">
+				<h3>Our commitment</h3>
 				<p>
 					Our website caters to a diverse range of cocktail enthusiasts,
 					including cocktail lovers, bartenders, party organizers, bars, and

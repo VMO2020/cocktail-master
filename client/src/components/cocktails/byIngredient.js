@@ -18,12 +18,15 @@ export const ByIngredient = ({ search }) => {
 			</h2>
 			{/* {!data && <h4 style={{ color: 'red' }}>Ingredient not found</h4>} */}
 			<section className="by-ingredient-container-card">
-				{data &&
+				{data ? (
 					data.drinks?.map((drink) => (
 						<div key={drink.idDrink}>
 							<NonAlcoholicCard drink={drink} />
 						</div>
-					))}
+					))
+				) : (
+					<h4 className="loading">Loading...</h4>
+				)}
 			</section>
 		</div>
 	);

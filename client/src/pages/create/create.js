@@ -93,11 +93,19 @@ export const Create = ({ user }) => {
 			)}
 			<h4>New Cocktails List:</h4>
 			<section className="create-cards-container">
-				{data?.map((cocktail) => (
-					<div key={cocktail._id} className="card">
-						<CocktailCard2 cocktail={cocktail} user={user} setData={setData} />
-					</div>
-				))}
+				{data ? (
+					data?.map((cocktail) => (
+						<div key={cocktail._id} className="card">
+							<CocktailCard2
+								cocktail={cocktail}
+								user={user}
+								setData={setData}
+							/>
+						</div>
+					))
+				) : (
+					<h4 className="loading">Loading...</h4>
+				)}
 			</section>
 			{showModal && (
 				<Modal>

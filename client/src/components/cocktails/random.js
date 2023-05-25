@@ -10,5 +10,13 @@ export const Random = () => {
 	useEffect(() => {
 		getRandomCocktail({ setData });
 	}, []);
-	return <>{data && <CocktailCard data={data} />}</>;
+	return (
+		<>
+			{data ? (
+				<CocktailCard data={data} />
+			) : (
+				<h4 className="loading">Loading...</h4>
+			)}
+		</>
+	);
 };

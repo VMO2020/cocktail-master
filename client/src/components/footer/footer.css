@@ -10,8 +10,9 @@
 
 .footer-container .footer-link {
 	font-size: var(--size-6);
-	margin: 1rem 2rem;
+	margin: 1rem auto;
 	text-decoration: none;
 	line-height: 8vh;
+	padding: 0.5em;
 	cursor: pointer;
 }
