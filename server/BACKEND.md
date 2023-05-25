@@ -26,12 +26,9 @@ Add `.env` file
 
 ## RUN / STOP
 
-Terminal(server): `npm start`
-Terminal(server): `Ctrl "C"`
+RUN: Terminal(server): `npm start`  
 
-## ADD book
-
-Terminal(server): `node seed.js`
+STOP: Terminal(server): `Ctrl "C"`
 
 ## MongoDB
 

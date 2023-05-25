@@ -21,8 +21,9 @@
 
 ## RUN / STOP
 
-Terminal(client): `npm start`
-Terminal(client): `Ctrl "C"`
+RUN: Terminal(client): `npm start`  
+
+STOP: Terminal(client): `Ctrl "C"`  
 
 ## REACT
 
