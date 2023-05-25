@@ -11,7 +11,6 @@ export const Home = ({ user }) => {
 
 	useEffect(() => {
 		getRandomCocktail({ setData });
-		// console.log(mojito);
 	}, []);
 
 	return (

@@ -18,7 +18,6 @@ function App() {
 		<BrowserRouter>
 			<Header user={user} isAuthenticated={isAuthenticated} />
 			{error && <p>Authentication Error</p>}
-			{!error && isLoading && <p className="loading">Loading....</p>}
 			<Routes>
 				<Route path="/" element={<Home user={user} />} />
 				<Route path="/about" element={<About />} />

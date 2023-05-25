@@ -32,6 +32,9 @@
 
 	--sm-shadow: 3px 3px 5px var(--med-color);
 	--lg-shadow: 5px 5px 8px var(--med-color);
+
+	--min-width: 320px;
+	--max-width: 1280px;
 }
 
 /* General */
@@ -43,15 +46,19 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem; /* 16px */
 	font-weight: 400;
+
 	text-align: center;
 	line-height: 1.6;
 	letter-spacing: 0.05em;
 	/* letter-spacing: 0.01em; */
-	min-width: 320px;
-	max-width: 1280px;
+
+	min-width: var(--min-width);
+	max-width: var(--max-width);
 	min-height: 100svh;
+
 	margin: 0 auto;
 	scroll-behavior: smooth;
+
 	color: black;
 	background-color: white;
 }
