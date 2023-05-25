@@ -15,8 +15,26 @@
 	color: var(--main-color);
 }
 
+.create-container .login-container {
+	display: flex;
+}
+
+.create-container .login-container button {
+	border: none;
+	box-shadow: none;
+	padding: 0.2em;
+	font-weight: 700;
+}
+
+.create-container .login-container button:hover {
+	transform: scale(1.05);
+	margin-right: 0.5em;
+	padding: 0.2em 0.5em;
+	box-shadow: var(--sm-shadow);
+}
+
 .create-container .login {
-	color: var(--main-color);
+	color: var(--med-color);
 }
 
 .create-container .create-cards-container {

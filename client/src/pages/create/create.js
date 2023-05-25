@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './create.css';
 
 import { Modal } from '../../components/modal/modal';
+import LoginButton from '../../components/auth/Login';
 import { getCocktails } from '../../services/getCocktails';
 import { CocktailCard2 } from '../../components/cocktails/cards/cocktailCard2';
 import { CreateNewCocktail } from '../../components/create/createNewCocktail';
@@ -89,7 +90,10 @@ export const Create = ({ user }) => {
 			{user?.name ? (
 				<button onClick={handleModal}>Create a new cocktail</button>
 			) : (
-				<h4 className="login">LOGIN to create a new Cocktail</h4>
+				<div className="login-container">
+					<LoginButton />
+					<h4 className="login"> to create a new Cocktail</h4>
+				</div>
 			)}
 			<h4>New Cocktails List:</h4>
 			<section className="create-cards-container">
