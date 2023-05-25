@@ -16,9 +16,6 @@
 	border: 2px solid var(--dark-color);
 	box-shadow: var(--sm-shadow);
 }
-.non-alcoholic-card:hover {
-	transform: scale(1.05);
-}
 
 .non-alcoholic-card h5 {
 	color: var(--main-color);

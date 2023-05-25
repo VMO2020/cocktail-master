@@ -7,10 +7,6 @@
 	box-shadow: var(--sm-shadow);
 }
 
-.card-2-container:hover {
-	transform: scale(1.05);
-}
-
 .card-2-container img {
 	width: var(--size-img-1);
 	height: var(--size-img-1);
