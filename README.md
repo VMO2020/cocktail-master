@@ -52,3 +52,9 @@
   <img height="40%" width="40%" src="./images/wireframe-3.jpeg" alt="wireframe-3" />
   <img height="40%" width="40%" src="./images/wireframe-4.jpeg" alt="wireframe-4" />
 </p>
+
+## Lighthouse
+
+<p align="center">
+  <img height="100%" width="100%" src="./images/Lighthouse.png" alt="lighthouse" />
+</p>
