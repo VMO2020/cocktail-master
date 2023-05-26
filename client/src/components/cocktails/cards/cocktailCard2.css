@@ -1,7 +1,7 @@
 .card-2-container {
 	position: relative;
 	min-width: 380px;
-	padding: 2em 3em;
+	padding: 1.5em 1.2em;
 	background-color: var(--light-color);
 	border: 2px solid var(--med-light-color);
 	box-shadow: var(--sm-shadow);
