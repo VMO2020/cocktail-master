@@ -7,7 +7,7 @@
 	--main-dark-color: rgb(85, 56, 2);
 
 	--dark-color: black;
-	--med-dark-color: darkgrey;
+	--med-dark-color: rgb(104, 103, 103);
 	--med-color: grey;
 	--med-light-color: lightgrey;
 	--light-color: white;
@@ -100,6 +100,10 @@ h6 {
 
 p {
 	font-size: var(--size-7);
+	color: var(--med-dark-color);
+}
+
+span {
 	color: var(--med-dark-color);
 }
 

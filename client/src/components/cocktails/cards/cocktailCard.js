@@ -10,7 +10,7 @@ export const CocktailCard = ({ data }) => {
 						<img
 							className="cocktail-img"
 							src={data.drinks[0].strDrinkThumb}
-							alt={data.drinks[0].strDrin}
+							alt={data.drinks[0].strDrink}
 						/>
 					</div>
 					<div className="cocktail-card-text">
