@@ -7,6 +7,7 @@ import { getCocktails } from '../../services/getCocktails';
 import { CocktailCard2 } from '../../components/cocktails/cards/cocktailCard2';
 import { CreateNewCocktail } from '../../components/create/createNewCocktail';
 import { createCocktail } from '../../services/CREATECocktail';
+import { BackToTop } from '../../components/BackToTop/BackToTop';
 
 const images = require('../../data/images.json').imageLinks;
 
@@ -112,6 +113,7 @@ export const Create = ({ user }) => {
 					<h4 className="loading">Loading...</h4>
 				)}
 			</section>
+			<BackToTop />
 			{showModal && (
 				<Modal>
 					<CreateNewCocktail

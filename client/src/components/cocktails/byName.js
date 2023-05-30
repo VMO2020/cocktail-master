@@ -3,6 +3,7 @@ import './byName.css';
 
 import { getByName } from '../../services/getByName';
 import { DetailedCard2 } from '../cocktails/cards/detailedCard2';
+import { BackToTop } from '../BackToTop/BackToTop';
 
 export const ByName = ({ search }) => {
 	const [data, setData] = useState(null);
@@ -28,6 +29,7 @@ export const ByName = ({ search }) => {
 					<h4 className="loading">Loading...</h4>
 				)}
 			</section>
+			<BackToTop />
 		</div>
 	);
 };

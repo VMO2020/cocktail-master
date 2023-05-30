@@ -3,6 +3,7 @@ import './byIngredient.css';
 
 import { getByIngredient } from '../../services/getByIngredient';
 import { NonAlcoholicCard } from '../../components/cocktails/cards/nonAlcoholicCard';
+import { BackToTop } from '../BackToTop/BackToTop';
 
 export const ByIngredient = ({ search }) => {
 	const [data, setData] = useState(null);
@@ -28,6 +29,7 @@ export const ByIngredient = ({ search }) => {
 					<h4 className="loading">Loading...</h4>
 				)}
 			</section>
+			<BackToTop />
 		</div>
 	);
 };

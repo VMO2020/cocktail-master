@@ -3,6 +3,7 @@ import './byLetter.css';
 
 import { getByLetter } from '../../services/getByLetter';
 import { DetailedCard2 } from '../cocktails/cards/detailedCard2';
+import { BackToTop } from '../BackToTop/BackToTop';
 
 export const ByLetter = ({ search }) => {
 	const [letterData, setLetterData] = useState(null);
@@ -28,6 +29,7 @@ export const ByLetter = ({ search }) => {
 					<h4 className="loading">Loading...</h4>
 				)}
 			</section>
+			<BackToTop />
 		</div>
 	);
 };

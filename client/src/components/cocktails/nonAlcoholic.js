@@ -3,6 +3,7 @@ import './nonAlcoholic.css';
 
 import { getNonAlcoholic } from '../../services/getNonAlcoholic';
 import { NonAlcoholicCard } from '../../components/cocktails/cards/nonAlcoholicCard';
+import { BackToTop } from '../BackToTop/BackToTop';
 
 export const NonAlcoholic = () => {
 	const [data, setData] = useState(null);
@@ -25,6 +26,7 @@ export const NonAlcoholic = () => {
 					<h4 className="loading">Loading...</h4>
 				)}
 			</section>
+			<BackToTop />
 		</div>
 	);
 };
