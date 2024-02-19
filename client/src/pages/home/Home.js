@@ -15,6 +15,7 @@ export const Home = ({ user }) => {
 
 	useEffect(() => {
 		getRandomCocktail({ setData });
+		// console.log(data)
 	}, []);
 
 	return (

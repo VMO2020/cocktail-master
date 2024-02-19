@@ -13,7 +13,7 @@ import { ReactComponent as Linkedin } from '../../assets/images/linkedin.svg';
 import { ReactComponent as NPM } from '../../assets/images/npm2.svg';
 
 // Gif
-import { ReactComponent as Image } from '../../assets/images/giphy.gif';
+// import { ReactComponent as Image } from '../../assets/images/giphy.gif';
 
 export const About = () => {
 	useEffect(() => {

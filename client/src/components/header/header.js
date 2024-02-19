@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import LoginButton from '../auth/Login';
 import LogoutButton from '../auth/Logout';
+
+import { SERVER } from '../../services/SERVER';
 
 import { ReactComponent as Menu } from '../../assets/menu.svg';
 
@@ -10,12 +12,18 @@ import './header.css';
 
 export const Header = ({ user, isAuthenticated }) => {
 	const [showMenu, setShowMenu] = useState(false);
+	const [show, setShow] = useState('');
 
 	// MENU button Toggle
 	const handleClick = (e) => {
 		e.preventDefault();
 		setShowMenu(!showMenu);
 	};
+
+	useEffect(() => {
+		SERVER({ setShow });
+		// console.log(show);
+	}, [show]);
 
 	return (
 		<header className="header-container">
@@ -24,6 +32,7 @@ export const Header = ({ user, isAuthenticated }) => {
 				src="https://w7.pngwing.com/pngs/295/214/png-transparent-cocktail-glasses-cocktail-juice-margarita-drink-cartoon-cocktail-cartoon-character-food-cartoons-thumbnail.png"
 				alt="logo"
 			/>
+
 			{showMenu && (
 				<nav>
 					<Link
@@ -60,7 +69,11 @@ export const Header = ({ user, isAuthenticated }) => {
 			)}
 
 			<div className="menu-container">
-				<Menu onClick={handleClick} />
+				{show === 'Welcome to the Cocktail Master API.' ? (
+					<Menu onClick={handleClick} />
+				) : (
+					<p style={{ color: 'white' }}>Loading...</p>
+				)}
 
 				{isAuthenticated && (
 					<Link to="/user" className="header-link-img">
