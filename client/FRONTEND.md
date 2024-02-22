@@ -25,6 +25,10 @@ RUN: Terminal(client): `npm start`
 
 STOP: Terminal(client): `Ctrl "C"`  
 
+## UPDATE to Netlify
+
+ Use GIT: `git add .`, `git commit -m "Message"` & `git push`
+
 ## REACT
 
 Deleting all files is not necessary (src)
@@ -55,7 +59,7 @@ Add: `reset.css`
 
 `"Discover an enticing world of cocktails at Cocktail Hub. Explore a vast collection of handcrafted cocktail recipes, unleash your creativity to craft your own signature drinks, and elevate your mixology skills. Perfect for cocktail lovers, bartenders, party enthusiasts, bars, and restaurants seeking inspiration and innovation. Cheers to unforgettable libations!"`
 
-## Netlfy
+## Netlify
 
 1. Go to `https://app.netlify.com/` All sites
 2. Add new site => Import an existing project

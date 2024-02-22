@@ -167,12 +167,6 @@ button {
 	outline-color: transparent;
 }
 
-textarea:focus-visible,
-input:focus-visible,
-button:focus-visible {
-	/* code */
-}
-
 img {
 	vertical-align: top;
 	width: 100%;
