@@ -66,11 +66,11 @@ Add: `reset.css`
 3. Connect to Git provider: GitHub
 4. Search: `cocktail-master`
 5. Owner: `VMOG`
-6. Branch to deply: `main`
+6. Branch to deploy: `main`
 7. Base directory: `client`
 8. Build command: `CI='' npm run build`
 9. Publish directory: `client/build`
 10. Show Advance: Environment variable: New variable `.env.local`
 11. Environment Add: `CI`=`false`
-11. Deploy site
-12. Site settings: Change url name: `https://cocktails-master.netlify.app/`
+12. Deploy site
+13. Site settings: Change url name: `https://cocktails-master.netlify.app/`
