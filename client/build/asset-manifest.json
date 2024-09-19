@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.30b156fd.css",
-    "main.js": "/static/js/main.670da439.js",
+    "main.css": "/static/css/main.9b00ec33.css",
+    "main.js": "/static/js/main.a4d823b1.js",
     "static/media/giphy.gif": "/static/media/giphy.d044bcca7562cb075c79.gif",
     "static/media/mongodb.svg": "/static/media/mongodb.cf8c7c4a9f6ad98a0f041642c59544e4.svg",
     "static/media/react.svg": "/static/media/react.6bca78556188a592298d16a2af564227.svg",
     "static/media/nodejs.svg": "/static/media/nodejs.3b8e95c968b55abe5491cc3a25c530f3.svg",
     "static/media/menu.svg": "/static/media/menu.e31c241f3d0d6ccea7b8059a2a1b6d88.svg",
+    "static/media/github.svg": "/static/media/github.d0139b361980e5168fa26c5c35c8a2f1.svg",
     "index.html": "/index.html",
     "static/media/express.svg": "/static/media/express.4b355f9736b27bb063ed5b37f56e8fd5.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.2298f9259beb960fb95720c8da3eef6a.svg",
     "static/media/liquor.svg": "/static/media/liquor.05e26aa542dfb2842650278b696564a8.svg",
+    "static/media/npm2.svg": "/static/media/npm2.70df20b046a98cfaf857475fe2eaf695.svg",
     "static/media/wine.svg": "/static/media/wine.cbe2c2ca3e85a4ad3eb4846585fade65.svg",
     "static/media/nightlife.svg": "/static/media/nightlife.c77f4c73c235a9f19ac830375687b97b.svg",
+    "static/media/edit_nc.svg": "/static/media/edit_nc.7da1f1bade5c02f06ec82fec8bd9a9ca.svg",
     "static/media/nodrinks.svg": "/static/media/nodrinks.85ea1def9d58850373b51e8c40b05d19.svg",
     "static/media/bar.svg": "/static/media/bar.3e2277de9fb5997d9c3694f06a8b4369.svg",
-    "main.30b156fd.css.map": "/static/css/main.30b156fd.css.map",
-    "main.670da439.js.map": "/static/js/main.670da439.js.map"
+    "static/media/delete_full_nc.svg": "/static/media/delete_full_nc.b830e568db54cf77fb3384a0881aeae8.svg",
+    "main.9b00ec33.css.map": "/static/css/main.9b00ec33.css.map",
+    "main.a4d823b1.js.map": "/static/js/main.a4d823b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b156fd.css",
-    "static/js/main.670da439.js"
+    "static/css/main.9b00ec33.css",
+    "static/js/main.a4d823b1.js"
   ]
 }
